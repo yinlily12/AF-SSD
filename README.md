@@ -15,13 +15,13 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 ## Installation
 * Install PyTorch 0.4.0 by the instrument on the website [Pytorch](https://pytorch.org/) and running the approriate command.
 * Clone this repository. This repository is mainly based on [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch), a huge thank to them.
-  - *`Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
+  - * `Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
   
 ## Datasets
 NWPU VHR-10 dataset is avalable here.
 
 ## Training 
-* Pre-trained MobileNetv1 is downloaded from our [BaiduYun Driver](https://pan.baidu.com/s/1SLdpsta035SxnxWfe-09UA)(code :`h4y7`). By default, the pre-trained module is in the file `AF-SSD/weights` dir.
+* Pre-trained MobileNetv1 is downloaded from our [BaiduYun Driver](https://pan.baidu.com/s/1SLdpsta035SxnxWfe-09UA)(code :`h4y7`). By default, the pre-trained module is in the `AF-SSD/weights` dir.
 * To train AF-SSD using the train script to specify the parameters listed in `train_AFSSD.py` as a flag or manually change them:
 
 ```Shell
@@ -38,7 +38,7 @@ To test an image with a trained network:
 ```Shell
 python demo/demo.py
 ```
-`Note`*: you can change the parameters listed in the file.
+*`Note`*: you can change the parameters listed in the file.
 ## Performance
 ### NWPU VHR-10
 |System | mAP |Average Running Time|
