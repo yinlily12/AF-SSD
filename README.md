@@ -1,6 +1,6 @@
 # AF-SSD: An Accurate and Fast Single Shot Detector for High Spatial Remote Sensing Imagery
 by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
-# Introduction
+## Introduction
 
 
 ## Contents
@@ -12,21 +12,22 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 - <a href='#performance'>Performance</a>
 
 
-# Installation
+## Installation
 * Install PyTorch 0.4.0 by the instrument on the website [Pytorch](https://pytorch.org/) and running the approriate command.
-* Clone this repository.
+* Clone this repository. This repository is mainly based on [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch), a huge thank to them.
   - *`Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
   
-# Datasets
+## Datasets
+NWPU VHR-10 dataset is avalable here.
 
-# Training 
+## Training 
+* Pre-trained MobileNetv1 is downloaded [here](https://pan.baidu.com/s/1SLdpsta035SxnxWfe-09UA)(code :`h4y7`). 
+## Evaluation
 
-# Evaluation
+## Demo
 
-# Demo
-
-# Performance
-## NWPU VHR-10
+## Performance
+### NWPU VHR-10
 |System | mAP |Average Running Time|
 |:--:|:--:|:--:|
 |COPD|54.6%|1.070s|
