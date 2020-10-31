@@ -28,4 +28,5 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 - <a href='#references'>Reference</a>
 
 # Installation
-dkfhksiofid
+* Install PyTorch 0.4.0 by the instrument on the website [Pytorch](https://pytorch.org/)
+* Clone this repository
