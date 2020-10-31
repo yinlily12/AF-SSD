@@ -15,7 +15,7 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 ## Installation
 * Install PyTorch 0.4.0 by the instrument on the website [Pytorch](https://pytorch.org/) and running the approriate command.
 * Clone this repository. This repository is mainly based on [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch), a huge thank to them.
-  - * `Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
+  - *`Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
   
 ## Datasets
 NWPU VHR-10 dataset is avalable here.
