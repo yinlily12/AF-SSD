@@ -38,4 +38,5 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 |Faster RCNN|80.9%|0.430s|
 |CACMOD CNN|**90.4**%|2.700s|
 |AF-SSD|**88.7**%|**0.035s**|
+
 *`Note`*: the result of SSD `SSD*` is our reproduced result with the same parameters as AF-SSD
