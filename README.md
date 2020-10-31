@@ -15,7 +15,7 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 # Installation
 * Install PyTorch 0.4.0 by the instrument on the website [Pytorch](https://pytorch.org/) and running the approriate command.
 * Clone this repository.
-  *`Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
+  - *`Note`*: We currently only support Python 3+ and Pytorch 0.4.0.
   
 # Datasets
 
@@ -27,7 +27,7 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 
 # Performance
 ## NWPU VHR-10
-|System | mAP |Average Running Time(NVIDIA GTX-1080Ti)|
+|System | mAP |Average Running Time|
 |:--:|:--:|:--:|
 |COPD|54.6%|1.070s|
 |YOLOv2|60.5%|**0.026s**|
@@ -39,4 +39,6 @@ by Ruihong Yin, Wei Zhao, Xudong Fan, Yongfeng Yin
 |CACMOD CNN|**90.4**%|2.700s|
 |AF-SSD|**88.7**%|**0.035s**|
 
-*`Note`*: the result of SSD `SSD*` is our reproduced result with the same parameters as AF-SSD
+*`Note`*: 
+ - The result of SSD `SSD*` is our reproduced result with the same parameters as AF-SSD.
+ - The testing environment is NVIDIA GTX-1080Ti.
